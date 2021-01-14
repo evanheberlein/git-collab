@@ -15,6 +15,12 @@ ggplot(data = penguins, aes(x = body_mass_g,
       y = flipper_length_mm)) + 
                               geom_point()
 
+```
+
+### Minnie chunk
+```{r}
+adelie <- penguins %>% 
+  filter(species == "Adelie")
 
 ```
 
